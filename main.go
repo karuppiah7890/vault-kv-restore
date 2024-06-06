@@ -37,6 +37,7 @@ examples:
 
 # show help
 vault-kv-restore -h
+vault-kv-restore --help
 
 # restores all vault kv v2 secrets from the kv backup JSON file.
 # also, any existing vault kv v2 secrets with the same secret
