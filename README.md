@@ -4,7 +4,7 @@ Using this CLI tool, you can restore Vault KV v2 Secrets Engine Secrets to a Vau
 
 Note: The tool is written in Golang and uses the Vault Official Golang API. The Official Vault Golang API documentation is here - https://pkg.go.dev/github.com/hashicorp/vault/api
 
-Note: The tool needs Vault credentials of a user/account that has access to Vault, to create and update the Vault KV v2 Secrets Engine Secrets that you want to restore. So, in short and basic terms - some sort of "write" permission is required. 
+Note: The tool needs Vault credentials of a user/account that has access to Vault, to create and update the Vault KV v2 Secrets Engine Secrets that you want to restore. So, in short and basic terms - some sort of "write" permission is required. Look at [Authorization Details for the Vault Credentials](#authorization-details-for-the-vault-credentials) for more details
 
 Note: We have tested this only with some versions of Vault (like v1.15.x). So beware to test this in a testing environment with whatever version of Vault you are using, before using this in critical environments like production! Also, ensure that the testing environment is as close to your production environment as possible so that your testing makes sense
 
